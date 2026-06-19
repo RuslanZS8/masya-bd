@@ -369,8 +369,7 @@ h1 {
 }
 
 .title-row img {
-    border-radius: 10px;
-    width: 150px;
+    border-radius: 3px;
 }
 
 @keyframes riseHeart {
