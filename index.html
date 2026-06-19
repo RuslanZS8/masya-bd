@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>✨ Birthday Letter | A Special Wish Just for You ✨</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1"></script>
+</head>
+
+<body>
+
+    <div class="birthday-card">
+        <div class="card-ribbon"></div>
+        <div class="inner-content">
+            <div class="cover-page" id="coverPage">
+                <div class="letter-icon">
+                    <i class="fas fa-envelope-open-text"></i>
+                </div>
+                <h2>Letter For You</h2>
+                <div class="cover-sub">✨open it✨</div>
+                <button class="btn-open" id="openLetterBtn">
+                    <i class="fas fa-envelope"></i> Open It
+                    <i class="fas fa-arrow-right"></i>
+                </button>
+            </div>
+
+            <div class="letter-page" id="letterPage">
+                <div class="letter-header">
+                    <i class="fas fa-feather-alt"></i>
+                    <div class="title-row">
+                        <img id="malika" src="malika.jpeg" class="title-image-left" alt="Malika">
+                        <h1>Birthday Letter</h1>
+                    </div>
+                </div>
+
+                <div class="letter-body">
+                    <div class="greeting">
+                        <i class="fas fa-star-of-life"></i>
+                        Hanımefendi Malika ,
+                    </div>
+                    <div class="message">
+                        <div style="font-family: sans-serif; line-height: 1.6; color: #333;">
+                            <p>Я очень рад, что в моей жизни появился такой человек, как ты. Я ценю нашу дружбу гораздо
+                                сильнее, чем может показаться со стороны.</p>
+
+                            <p>Я знаю, что этот год выдался непростым, но все эти трудности точно делают тебя только
+                                сильнее и мудрее. Ты со всем справишься, даже не сомневайся, ты большая умница.</p>
+
+                            <p>Оставайся такой же прекрасной — и снаружи, и внутри. И даже если дни рождения сейчас
+                                ощущаются совсем не так, как в детстве, я очень надеюсь, что этот день напомнит тебе,
+                                сколько в тебе света и как сильно тебя ценят.</p>
+
+                            <p>Искренне желаю тебе успехов во всех твоих начинаниях, душевного спокойствия и
+                                побольше моментов, которые заставляют улыбаться просто так, без повода. Пусть всё
+                                задуманное обязательно сбудется✨</p>
+
+                            <p>Happy birthday again <333 💖🎉</p>
+                        </div>
+                    </div>
+                    <div class="signature">
+                        <i class="fas fa-heart"></i> With warm wishes,<br> Ruslan💌😊
+                    </div>
+                </div>
+
+                <div class="button-group">
+                    <button class="btn btn-secondary" id="heartBtn">
+                        <i class="fas fa-heart"></i> click гмбр гымбр
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="heart-container" id="heartContainer"></div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
