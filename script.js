@@ -86,7 +86,7 @@
     function createFloatingHeart() {
         const heartEl = document.createElement('div');
         heartEl.classList.add('floating-heart');
-        const icons = ['🌸', '🌸', '💗', '🌸', '💕', '🌸', '✨', '🌸', '🌸', '🌸', '🌸', '💗', '🌸', '💕', '🌸', '✨', '🌸', '🌸',];
+        const icons = ['🌸', '🌸', '💗', '🌸','🌸', '💕', '🌸', '✨', '🌸', '🌸', '🌸', '🌸','🌸', '💕', '🌸', '✨', '🌸', '🌸',];
         const randomIcon = icons[Math.floor(Math.random() * icons.length)];
         heartEl.innerHTML = randomIcon;
         heartEl.style.fontSize = `${Math.random() * 22 + 18}px`;
