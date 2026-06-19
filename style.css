@@ -31,6 +31,10 @@ body::before {
     z-index: 0;
 }
 
+.letter-header img {
+    width: 125px;
+}
+
 /* main card container dedim */
 .birthday-card {
     max-width: 800px;
